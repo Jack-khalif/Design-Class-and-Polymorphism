@@ -5,7 +5,7 @@ This repository contains two Python Object-Oriented Programming (OOP) assignment
 
 
 ##  Assignment 1: Design Your Own Class
-##run file: DesigningClass.py
+### run file: DesigningClass.py
 
 ###  Description
 This program defines a `Smartphone` class representing a real-world smartphone. It extends a base `Device` class, demonstrating inheritance, encapsulation, and method functionality.
@@ -19,7 +19,7 @@ This program defines a `Smartphone` class representing a real-world smartphone. 
   - `make_call(number)` — simulates making a call.
 - Uses **constructors** to initialize unique values.
 
-### ▶ Example Usage
+###  Example Usage
 ```python
 my_phone = Smartphone("Samsung", "Galaxy S23", "256GB", 108)
 print(my_phone.device_info())
@@ -30,7 +30,7 @@ my_phone.make_call("+254712345678")
 ---
 
 ##  Activity 2: Polymorphism Challenge 
-##Run file: polymorphism.py
+### Run file: polymorphism.py
 
 ###  Description
 This program demonstrates **polymorphism** using an `Animal` base class and multiple subclasses (`Dog`, `Bird`, `Fish`). Each subclass defines its own version of the `move()` method.
@@ -38,9 +38,9 @@ This program demonstrates **polymorphism** using an `Animal` base class and mult
 ###  Features
 - **Animal class** (Base) with a `move()` method.
 - Subclasses:
-  - `Dog` → `🐕 Running on four legs!`
-  - `Bird` → `🐦 Flying in the sky!`
-  - `Fish` → `🐟 Swimming in the water!`
+  - `Dog` → ` Running on four legs!`
+  - `Bird` → ` Flying in the sky!`
+  - `Fish` → ` Swimming in the water!`
 - Demonstrates polymorphism via method overriding.
 - Uses a **for loop** to call `move()` on each animal object.
 
